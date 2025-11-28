@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IG Saved Exporter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>IG Saved Exporter</h2>
+
+      <div class="status-box">
+        <span id="postCount">0</span> posts collected
+      </div>
+
+      <div class="controls">
+        <button id="btnStart" class="primary">Start Auto-Scroll</button>
+        <button id="btnStop" class="secondary hidden">Stop Scrolling</button>
+      </div>
+
+      <hr />
+
+      <div class="export-controls">
+        <button id="btnJson">Download JSON</button>
+        <button id="btnCsv">Download CSV</button>
+        <button id="btnClear" class="danger">Clear Data</button>
+      </div>
+
+      <div id="message" class="message"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
